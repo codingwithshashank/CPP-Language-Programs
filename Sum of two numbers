@@ -1,0 +1,31 @@
+#include <iostream>
+#include <cstdio>
+using namespace std;
+
+class addition 
+{
+    int p,q,r;
+   public:
+  
+   void fun1()
+   {
+     cout<<"Enter two numbers: "<<endl;
+     cout<<"first number is: ";
+       cin>>p;
+    cout<<"second number is: ";
+       cin>>q;
+   }
+   void fun2()
+   {
+       cout<<"sum is:"<<p+q;
+   }
+};   
+
+int main()
+{
+    addition a1;
+    a1.fun1();
+    a1.fun2();
+
+getchar();
+}
